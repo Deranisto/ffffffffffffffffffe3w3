@@ -1,0 +1,19 @@
+{
+  "name": "apex-max-visibility-tester",
+  "version": "0.1.0",
+  "description": "APEX MAX API VISIBILITY TESTER — read-only диагностика видимости постов и рекламы РСЯ для MAX-бота (Node.js + TypeScript, официальный MAX Bot API)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
